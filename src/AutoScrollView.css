@@ -1,0 +1,42 @@
+/* 滚动 */
+ .newPosition-list {
+  width: 850px;
+  height: 300px;
+  box-shadow: 0 0 15px 0 rgba(31,56,88, .08);
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* 头部 */
+.newPosition-list .more-position {
+  height: 49px;
+  border-bottom: 1px solid rgba(31,56,88,.06);
+  background: #fff;
+  color: #000000;
+  font-size: 14px;
+  line-height: 49px;
+  padding: 0 14px;
+  font-family: PingFangSC-Regular;
+  position: relative;
+  z-index: 2;
+}
+
+.newPosition-list .more-position .clickMorePosition {
+  float: right;
+  font-size: 14px;
+  color: rgba(31,56,88,.6);
+  text-decoration: none;
+}
+
+/* 头部 结束 */
+/* 滚动部分 start */
+.newPosition-list .position-list {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
